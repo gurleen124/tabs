@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="bg-gray-100">
+    <section class="my-10">
+        <h1 class="text-6xl text-center">About us</h1>
+        <p class="text-xl w-1/2 my-5 mx-auto">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quod nam
+            corporis inventore sit, natus
+            officia dolorem voluptates. Perferendis omnis aperiam eius. Fugiat reprehenderit sunt nesciunt corrupti
+            rerum at rem!</p>
+        <div class="grid grid-cols-2 w-11/12 mx-auto gap-x-5">
+            <div data-category="history" class="rounded-lg bg-center bg-[url(https://vannilla-js-basic-project-11-tabs.netlify.app/hero-bcg.jpeg)]">
+            </div>
+            <div class="hidden rounded-lg bg-center bg-[url(https://vannilla-js-basic-project-15-slider.netlify.app/img-2.jpeg)]" data-category="visions">
+            </div>
+            <div class="hidden rounded-lg bg-center bg-[url(https://vannilla-js-basic-project-15-slider.netlify.app/img-1.jpeg)]" data-category="goals">
+            </div>
+            <div class="bg-white rounded-lg h-[60vh]">
+                <div class="grid grid-cols-3 text-center bg-gray-200 *:py-5 text-2xl rounded-t-lg">
+                    <button type="button" data-id="history"
+                        class="active btn hover:bg-sky-100 hover:text-blue-400 rounded-tl-lg">
+                        History</button>
+                    <button type="button" data-id="visions" class="btn hover:bg-sky-100 hover:text-blue-400">
+                        Vision</button>
+                    <button type="button" data-id="goals"
+                        class="btn hover:bg-sky-100 hover:text-blue-400 rounded-tr-lg">
+                        Goals</button>
+                </div>
+                <div class="m-10" data-category="history">
+                    <h2 class="font-semibold tracking-widest text-2xl text-blue-900">History</h2>
+                    <p class="text-justify text-lg">
+                        I'm baby wolf pickled schlitz try-hard normcore marfa man bun mumblecore vice pop-up XOXO lomo
+                        kombucha glossier bicycle rights. Umami kinfolk salvia jean shorts offal venmo. Knausgaard tilde
+                        try-hard, woke fixie banjo man bun. Small batch tumeric mustache tbh wayfarers 8-bit shaman
+                        chartreuse tacos. Viral direct trade hoodie ugh chambray, craft beer pork belly flannel tacos
+                        single-origin coffee art party migas plaid pop-up.
+                    </p>
+                </div>
+                <div class="m-10 hidden" data-category="visions">
+                    <h2 class="font-semibold tracking-widest text-2xl text-blue-900">Vision</h2>
+                    <p class="text-justify text-lg">
+                        Man bun PBR&B keytar copper mug prism, hell of helvetica. Synth crucifix offal deep v hella
+                        biodiesel. Church-key listicle polaroid put a bird on it chillwave palo santo enamel pin,
+                        tattooed meggings franzen la croix cray. Retro yr aesthetic four loko tbh helvetica air plant,
+                        neutra palo santo tofu mumblecore. Hoodie bushwick pour-over jean shorts chartreuse shabby chic.
+                        Roof party hammock master cleanse pop-up truffaut, bicycle rights skateboard affogato readymade
+                        sustainable deep v live-edge schlitz narwhal.
+                    </p>
+                </div>
+                <div class="m-10 hidden" data-category="goals">
+                    <h2 class="font-semibold tracking-widest text-2xl text-blue-900">Goals</h2>
+                    <p class="text-justify text-lg">
+                        Chambray authentic truffaut, kickstarter brunch taxidermy vape heirloom four dollar toast
+                        raclette shoreditch church-key. Poutine etsy tote bag, cred fingerstache leggings cornhole
+                        everyday carry blog gastropub. Brunch biodiesel sartorial mlkshk swag, mixtape hashtag marfa
+                        readymade direct trade man braid cold-pressed roof party. Small batch adaptogen coloring book
+                        heirloom. Letterpress food truck hammock literally hell of wolf beard adaptogen everyday carry.
+                        Dreamcatcher pitchfork yuccie, banh mi salvia venmo photo booth quinoa chicharrones.
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
